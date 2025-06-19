@@ -1,21 +1,51 @@
-# React + TypeScript + Vite
+# HackerRank: Code Review Feedback
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+|Link|Desc|
+|--|--|
+| [solution1](./solution1.md)| flat state|
+| [solution2](./solution2.md)| nested objects |
+| [see live version on vercel](https://hackerrank-react-code-review.vercel.app/)|deployed solution 1|
+| [see HackerRank Website](https://hackerrank-react-code-review.vercel.app/)| for details|
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+Your task is to create a React application called "Code Review Feedback" that tracks and manages feedback on various aspects of code quality. The component should have upvote and downvote functionality for each aspect, and it must meet all specified requirements.
 
-## Deploy Your Own
 
-Deploy your own Vite project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
+![image](public\gif-converter.gif)
 
-_Live Example: https://vite-react-example.vercel.app_
 
-### Deploying From Your Terminal
+# Detailed Requirements
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+> The CodeReviewFeedback component displays five aspects: Readability, Performance, Security, Documentation, and Testing.
 
-```shell
-$ vercel
-```
+> Each aspect has two buttons labeled "Upvote" and "Downvote" to allow users to vote.
+
+> The initial count for upvotes and downvotes for each aspect is set to zero.
+
+> Clicking the "Upvote" button should increment the upvote count for that aspect by 1.
+
+> Clicking the "Downvote" button should increment the downvote count for that aspect by 1.
+
+> Ensure the counts update in the UI immediately upon clicking.
+
+> The component should have a subtle animation when the voting count is updated to enhance the user experience.
+
+
+# Sample Interaction
+
+## Initial State
+
+    Display all five aspects with their respective upvote and downvote buttons.
+    Each aspect shows an initial count of 0 for upvotes and downvotes.
+
+## User Action 1
+
+    User clicks "Upvote" for Readability.
+    The upvote count for Readability displays 1.
+
+##  User Action 2
+
+    User clicks "Downvote" for Performance.
+    The downvote count for Performance displays 1.
+
+User Action 3 3. User clicks "Upvote" for Security and Documentation multiple times. 4. The upvote count for Security displays 2 and Documentation displays 3.

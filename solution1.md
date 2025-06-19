@@ -1,3 +1,6 @@
+# Solution 1: flat state votes and vote types
+
+```JS
 import { useState } from "react";
 import "./App.css";
 
@@ -67,3 +70,5 @@ const App = () => {
 };
 
 export default App;
+
+```
