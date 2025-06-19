@@ -20,7 +20,11 @@ const App = () => {
 
   return (
     <div style={{ padding: 10 }}>
-      <h2>Code Review Feedback</h2>
+      <h2>
+        <a href="https://github.com/attila5287/hackerrank-react-code-review">
+          Code Review Feedback
+        </a>
+      </h2>
       {items.map((item) => (
         <div
           key={item.name}
