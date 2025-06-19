@@ -47,7 +47,6 @@ const App = () => {
             }}
           >
             <i className="fa-solid fa-thumbs-up"></i>
-            Upvote
           </button>
           <span> {item.upvotes} </span>
           <button
@@ -61,7 +60,6 @@ const App = () => {
             }}
           >
             <i className="fa-solid fa-thumbs-down"></i>
-            Downvote
           </button>
           <span> {item.downvotes} </span>
         </div>
